@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>2DitTest</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href = "./fonts/Lato-Regular/style.css" rel = "stylesheet" type = "text/css" />
+    <link href = "./fonts/Lato-Bold/style.css" rel = "stylesheet" type = "text/css" />
+    <link href = "./fonts/GothamPro/style.css" rel = "stylesheet" type = "text/css" />
+    <link href = "./fonts/ArialMT/style.css" rel = "stylesheet" type = "text/css" />
+    <link href = "./fonts/GothamPro-Bold/style.css" rel = "stylesheet" type = "text/css" />
+    <link href = "./fonts/ProximaNova-Regular/style.css" rel = "stylesheet" type = "text/css" />
+    <link href = "./fonts/ProximaNova-Semibold/style.css" rel = "stylesheet" type = "text/css" />
+    <link href = "./fonts/ProximaNova-Bold/style.css" rel = "stylesheet" type = "text/css" />
+    <link href = "./fonts/Parangon530C/style.css" rel = "stylesheet" type = "text/css" />
+</head>
+
+<body>
+    <div class="cont">
+        <div class="wp">
+            <h1>На что рассчитывать при взыскании неустойки по ДДУ?</h1>
+            <p>Когда застройщик нарушает сроки сдачи по ДДУ, вы как дольщик имеете право требовать неустойку за просрочку, а также компенсацию убытков, вызванных этой просрочкой.</p>
+            <p>Само собой, застройщику невыгодно добровольно выплачивать вам компенсацию. Когда дело доходит до суда, суд урезает сумму неустойки на основании ст. 333 ГК РФ. Это урезание практически неизбежно.</p>
+            <p>Основная наша задача состоит в том, чтобы взыскать неустойку по ДДУ в максимальном размере, т.е. избежать сильного ее урезания. Вот что вы можете требовать от застройщика.</p>
+        </div>
+        <div class="accordeon-wrapper">
+            <div class="accordeon-section">
+
+                <div class="accordeon-header">
+                    Выплата неустойки по ДДУ
+
+
+                    <div class="cube"><span class="arrow"></span></div>
+                </div>
+                <div class="accordeon-body">
+                    <p>content 1</p>
+                </div>
+            </div>
+
+            <div class="accordeon-section">
+                <div class="accordeon-header">
+                    Компенсация морального вреда
+                      <div class="cube"><span class="arrow"></span></div>
+                </div>
+
+                <div class="accordeon-body">
+                    <p>content 2</p>
+                </div>
+            </div>
+
+            <div class="accordeon-section">
+                <div class="accordeon-header">
+                    Штраф в размере 50%
+                      <div class="cube"><span class="arrow"></span></div>
+                </div>
+
+                <div class="accordeon-body">
+                    <div>
+                        <p>content 2</p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordeon-section">
+                <div class="accordeon-header">
+                    Компенсация расходов по аренде жилья
+                      <div class="cube"><span class="arrow"></span></div>
+                </div>
+
+                <div class="accordeon-body">
+                    <div>
+                        <p>content 2</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordeon-section">
+                <div class="accordeon-header">
+                    Компенсация убытков по ипотеке
+                    <div class="cube"><span class="arrow"></span></div>
+                </div>
+                <div class="accordeon-body">
+                    <p>content 2</p>
+                </div>
+            </div>
+
+            <div class="accordeon-section">
+                <div class="accordeon-header">
+                    Возмещение иных расходов
+                    <div class="cube"><span class="arrow"></span></div>
+                </div>
+                <div class="accordeon-body">
+                   <p>content 2</p> 
+                </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+
+    <div class="wrapper__form" style=" width: 100%; height: 100%; background-image: url('img/bg.jpg')">
+        <div class="form">
+            <form action="send.php" method="post" class="form__body">
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="2dit_form">
+                <input type="hidden" name="admin_email" value="androcsus.grut@gmail.com">
+                <input type="hidden" name="form_subject" value="MainForm">
+                <!-- END Hidden Required Fields -->
+
+                <h1>Оставите заявку</h1>
+                <p>И наш специалист свяжется с вами</p>
+                <div class="form__items">
+                    <div class="form__item">
+                        <input id="formName" type="text" name="name" class="form__input" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form__item form__flag">
+                        <img src="img/flag.svg" alt="flag" class="flag">
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+7 (___) ___-__-__" required>
+                        
+                    </div>
+                    <div class="form__item">
+                        <input id="formEmail" type="text" name="Email" class="form__input" placeholder="Эл. почта" required>
+                    </div>
+                </div>
+                <div class="form__about">
+                    <p class="about__content">Нажимая кнопку, я принимаю <a href="#">пользовательское соглашение</a>, соглашаюсь с политикой конфиденциальности, условиями пользования сайтом, передачей и обработкой моих персональных данных</p>
+                <button type="submit" class="form__button">Оформить заявку</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <div class="blocks">
+
+         <div class="block">
+           <div class="image_link">
+             <div class="hit"> <p><img src="img/star.svg" alt="icon">  хит продаж</p></div>
+             <div class="nalichie"><p><img src="img/galochka.svg" alt="icon"> В наличии</p></div>
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <div class="hit sale"> <p><img src="img/sale.svg" alt="icon">  Акция</p></div>
+             <div class="nalichie"><p><img src="img/galochka.svg" alt="icon"> В наличии</p></div>
+             <img src="img/chair2.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>  
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <div class="hit new"> <p><img src="img/icon.svg" alt="icon">  новинка</p></div>
+             <div class="nalichie"><p><img src="img/galochka.svg" alt="icon"> В наличии</p></div>
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div><div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+         <div class="block">
+           <div class="image_link">
+             <img src="img/chair.svg" alt="chair">
+           </div>
+           <div class="about">
+             <p class="title">Кресла театральные</p>
+             <h2>Театральное кресло Прайм</h2>
+             <p class="articl">Артикул: <span>789-2341</span></p>
+             <p class="price">от: <span>6 762</span> Р</p>
+           </div>
+         </div>
+
+        </div>
+       </div>
+    <script src="/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
